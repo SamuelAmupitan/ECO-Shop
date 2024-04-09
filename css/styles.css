@@ -108,12 +108,19 @@
   padding: 80px 40px 80px 40px;
   gap: 24px;
   margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .header-heading {
   width: 640px ;
   height: 138px;
-  font-family: Libre Baskerville;
+  /* font-family: Libre Baskerville; */
+  font-family: Inter;
   color: #333333;
   font-size: 5.6rem;
   font-weight: 700;
