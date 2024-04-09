@@ -78,6 +78,7 @@ body {
   color: #555; */
 }
 
+
 /**************************/
 /* GENRAL REUSABLE COMPONENTS */
 /**************************/
@@ -199,7 +200,7 @@ body {
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #fff;
+  background-color: lightpink;
   color: #658C4A;
 }
 
@@ -244,7 +245,8 @@ body {
 
 .link:hover,
 .link:active {
-  color: #658C4A;
+  background-color: #658C4A;
+  color: #fff;
   padding: 5px 10px;
   border-bottom: 1px solid transparent;
 }

@@ -1,3 +1,20 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px #658C4A solid;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.content {
+  padding-top: 208px; /* Adjust this value as needed */
+}
+
+.categories-section {
+  height: 2vh;
+}
+
 .header-sale-bar {
   height: 5.6rem;
   border-bottom: 1px;
