@@ -202,7 +202,7 @@ header {
   width: fit-content;
   height: 36px;
   top: 80%;
-  left: 28%;
+  left: 30%;
   padding: 8px 16px;
   border-radius: 40px;
   background-color: #333333;
@@ -213,24 +213,13 @@ header {
   line-height: 20px;
   text-align: center;
   border: none;
-
-
+  transition: all 0.3s;
 }
 
-/* Style the button and place it in the middle of the container/image */
-/* .categories-section .btn {
-  position: absolute;
-
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+.categories-btn:hover {
+  background-color: #658C4A;
+  color: #fff;
 }
 
-.categories-section .btn:hover {
-  background-color: black;
-} */
+
 
