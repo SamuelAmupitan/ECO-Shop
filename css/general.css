@@ -83,12 +83,11 @@ body {
 /* GENRAL REUSABLE COMPONENTS */
 /**************************/
 
-.container {
-  /* 1140px */
-  /* max-width: 100%; */
-  /* padding: 0 3.2rem;
-  margin: 0 auto; */
-}
+/* .container {
+  max-width: 100%;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+} */
 
 .grid {
   display: grid;
@@ -120,6 +119,10 @@ body {
 
 .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--6-cols {
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .grid--center-v {

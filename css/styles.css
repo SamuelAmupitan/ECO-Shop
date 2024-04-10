@@ -7,14 +7,6 @@ header {
   overflow: hidden;
 }
 
-.content {
-  padding-top: 208px; /* Adjust this value as needed */
-}
-
-.categories-section {
-  height: 2vh;
-}
-
 .header-sale-bar {
   height: 5.6rem;
   border-bottom: 1px;
@@ -68,7 +60,7 @@ header {
   padding-left: 20px;
   font-family: Inter;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
   text-align: left;
   color: #999999;
@@ -155,4 +147,81 @@ header {
   text-align: center;
   color:#666666;
 }
+
+.content {
+  padding-top: 208px; /* Adjust this value as needed */
+}
+
+/* Section Category Highlight */
+.categories-section {
+  max-width: 1,440px;
+  /* max-width: 100%; */
+  padding: 8rem 6rem;
+  height: 360px;
+  gap: 24px;
+  background-color: #fff;
+  column-gap: 24px;
+
+}
+
+.categories-section h3 {
+  /* font-family: Libre Baskerville; */
+  font-family: Inter;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 49.6px;
+  text-align: left;
+  width: 20rem;
+  height: 150px;
+  color: #658C4A;
+}
+
+.category-banner {
+  position: relative;
+}
+
+/* Make the image responsive */
+.categories-section img {
+  border-radius: 8px;
+  width: 20rem;
+  height: 20rem;
+}
+
+.categories-btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  height: 36px;
+  top: 80%;
+  left: 30%;
+  padding: 8px 16px 8px 16px;
+  border-radius: 40px;
+  background-color: #333333;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+
+
+}
+
+/* Style the button and place it in the middle of the container/image */
+/* .categories-section .btn {
+  position: absolute;
+
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.categories-section .btn:hover {
+  background-color: black;
+} */
 
