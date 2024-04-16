@@ -295,8 +295,8 @@ header {
 /* section-new-arrivals */
 .section-new-arrivals {
   width: 100%;
-  height: 778px;
-  padding: 80px 60px;
+  /* height: 768px; */
+  padding: 60px 60px;
   /* display: flex; */
   /* flex-direction: column; */
   /* align-items: center; */
@@ -306,7 +306,7 @@ header {
 
 .section-new-arrivals-heading {
   width: 100%;
-  height: 7.8rem;
+  /* height: 7.8rem; */
   gap: 16px;
 
   display: flex;
@@ -315,8 +315,8 @@ header {
 
 .new-arrivals-heading {
   width: 100%;
-  height: 7.8rem;
-  gap: 4px;
+  /* height: 7.8rem; */
+  gap: 40px;
 
 }
 
@@ -362,8 +362,8 @@ header {
   position: relative;
 }
 
-.previous img, 
-.next img {
+#prev-slide, 
+#next-slide {
   position: absolute;
   width: 18.5px;
   height: 13.64px;
@@ -373,165 +373,74 @@ header {
 
 /* Add hover state to the icons */
 
-
-
-/* styles.css */
-
-/* Slider container */
-.slider-container {
-    display: flex;
-    overflow: hidden;
-}
-
-/* Individual slide */
-.slide {
-    width: 100%;
-    transition: transform 0.5s ease;
-}
-
-/* Navigation buttons */
-.prev, .next {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-/* Add more styling as desired */
-
-
-
-
-.container {
-  max-width: 1200px;
-  width: 95%;
-}
-
-.slider-wrapper {
-  position: relative;
-}
-
-.slider-wrapper .slide-button {
-  position: absolute;
-  top: 50%;
-  outline: none;
-  border: none;
-  height: 50px;
-  width: 50px;
-  z-index: 5;
-  color: #fff;
-  display: flex;
+.previous:hover {
   cursor: pointer;
-  font-size: 2.2rem;
-  background: #000;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transform: translateY(-50%);
+  background-color: #E7CEC0;
 }
 
-.slider-wrapper .slide-button:hover {
-  background: #404040;
+.next:hover {
+  cursor: pointer; 
+  background-color: #E6E6E6;
 }
 
-.slider-wrapper .slide-button#prev-slide {
-  left: -25px;
-  display: none;
+
+
+.product-list-frame {
+  width: 1320px;
+height: 408px;
+gap: 0px;
+opacity: 0px;
+
 }
 
-.slider-wrapper .slide-button#next-slide {
-  right: -25px;
-}
-
-.slider-wrapper .image-list {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  gap: 18px;
-  font-size: 0;
-  list-style: none;
-  margin-bottom: 30px;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-
-.slider-wrapper .image-list::-webkit-scrollbar {
-  display: none;
-}
-
-.slider-wrapper .image-list .image-item {
-  width: 325px;
-  height: 400px;
-  object-fit: cover;
-}
-
-.container .slider-scrollbar {
-  height: 24px;
-  width: 100%;
+.product-list {
+  width: 2,664px;
+  height: 408px;
+  gap: 74px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-.slider-scrollbar .scrollbar-track {
-  background: #ccc;
-  width: 100%;
-  height: 2px;
-  display: flex;
-  align-items: center;
-  border-radius: 4px;
-  position: relative;
+.product-list-card {
+  width: 312px;
+  height: 408px;
+  gap: 8px;
+  border-radius: 8px;
+
 }
 
-.slider-scrollbar:hover .scrollbar-track {
-  height: 4px;
+.product-image {
+  width: 312px;
+  height: 312px;
+  border-radius: 8px;
 }
 
-.slider-scrollbar .scrollbar-thumb {
-  position: absolute;
-  background: #000;
-  top: 0;
-  bottom: 0;
-  width: 50%;
-  height: 100%;
-  cursor: grab;
-  border-radius: inherit;
+.product-image img {
+  max-width: 31.2rem;
+  height: 31.2rem;
 }
 
-.slider-scrollbar .scrollbar-thumb:active {
-  cursor: grabbing;
-  height: 8px;
-  top: -2px;
+.product-list-header {
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+color: #333333;
 }
 
-.slider-scrollbar .scrollbar-thumb::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: -10px;
-  bottom: -10px;
+.product-list-price {
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+color: #658C4A;
 }
 
-/* Styles for mobile and tablets */
-@media only screen and (max-width: 1023px) {
-  .slider-wrapper .slide-button {
-    display: none !important;
-  }
-
-  .slider-wrapper .image-list {
-    gap: 10px;
-    margin-bottom: 15px;
-    scroll-snap-type: x mandatory;
-  }
-
-  .slider-wrapper .image-list .image-item {
-    width: 280px;
-    height: 380px;
-  }
-
-  .slider-scrollbar .scrollbar-thumb {
-    width: 20%;
-  }
+.see {
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
 }
-
-
