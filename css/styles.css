@@ -639,6 +639,8 @@ color: #666666;
 
 .section-subscribe {
   background-image: url('/images/image\ 1004.png');
+  background-position: center;
+  background-size: cover;
   background-color: #fff;
   width: 100%;
   height: 60rem;
@@ -709,6 +711,15 @@ color: #666666;
 .subscribe-form input:focus {
   border: none;
   box-shadow: none;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+height: 62.8rem;
+padding: 240px 60px 40px 60px;
+gap: 24px;
+
 }
 
 
