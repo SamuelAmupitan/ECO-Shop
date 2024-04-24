@@ -72,11 +72,11 @@ html {
 body {
   font-family: "Inter", sans-serif;
   background: #fff;
-  max-width: 100%;
-  /* line-height: 1;
-  font-weight: 400;
-  color: #555; */
+  width: 100%;
+
+  position: relative;
 }
+
 
 
 /**************************/
