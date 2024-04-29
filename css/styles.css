@@ -8,6 +8,7 @@ header {
   z-index: 99999;
 }
 
+
 .mobile-header {
   display: none;
 }
@@ -130,7 +131,7 @@ header {
 
 .header-container {
   background-color: #fff;
-  width: 720px;
+  width: 72rem;
   height: 454px;
   padding: 80px 40px;
   gap: 24px;
@@ -144,8 +145,8 @@ header {
 }
 
 .header-heading {
-  width: 640px ;
-  height: 138px;
+  width: 64rem ;
+  height: 13.8rem;
   /* font-family: Libre Baskerville; */
   font-family: Inter;
   color: #333333;
@@ -175,6 +176,10 @@ header {
 }
 
 @media (max-width: 768px) {
+  body {
+    width: 100%;
+    overflow-xed : hidden;
+  }
   .desktop-header {
     display: none;
   }
@@ -190,6 +195,7 @@ header {
       z-index: 99999;
   }
   .mobile-header-sale-bar {
+    width: 100%;
     height: 4rem;
     padding: 12px;
     border-bottom: 1px;
