@@ -1435,9 +1435,9 @@ color: #333333;
 
 .payment-logo {
   width: 27.2rem;
-height: 4rem;
-display: flex;
-gap: 16px;
+  height: 4rem;
+  display: flex;
+  gap: 16px;
 }
 
 .divider {
@@ -1451,7 +1451,6 @@ gap: 16px;
   height: 8rem;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   padding: 20px 40px;
 }
 .copyright-container p {
@@ -1465,6 +1464,111 @@ gap: 16px;
 .socials-container {
   display: flex;
   gap: 16px;
+}
+
+@media (max-width: 768px) {
+  footer {
+    background-image: url("/images/background.png");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .footer {
+    width: 100%;
+    height: 65.6rem;
+    padding: 160px 15px 40px 16px;
+    gap: 16px;
+  }
+
+  .badge {
+    left: 40%;
+    top: 5%;
+    width: 8rem;
+    height: 8rem;
+    padding: 26.67px 9.33px 26.67px 17.33px;
+    border-radius: 133.33px;
+    box-shadow: 0px -2.67px 2.67px 0px #00000026 inset;
+    box-shadow: 0px 2.67px 2.67px 0px #FFFFFF26 inset;
+  }
+
+  .badge svg {
+    width: 53.33px;
+    height: 26.67px;
+    top: 26.67px;
+    left: 17.33px;
+
+  }
+
+  .footer-menu {    
+    display: grid;
+    grid-template-columns: repeat(2, 16.4rem);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 12rem;
+    column-gap: 3.2rem;
+  }
+
+  .menu-list {
+    width: 16.4rem;
+    height: 9.6rem;
+    gap: 8px;
+
+  }
+
+  .menu-list h3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+
+  }
+
+  .menu-lists-container p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #333333;
+  }
+
+  .divider {
+    width: 100%;
+  }
+
+  .payment-logo {
+    width: 15.6rem;
+    height: 2.4rem;
+    gap: 8px;
+  }
+
+  .payment-logo img {
+    width: 3.2rem;
+    height: 2.4rem;
+  }
+
+  .copyright-container {
+    width: 100%;
+    height: 10rem;
+    gap: 24px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .copyright-container p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .socials-container {
+    width: 17.6rem;
+    height: 3.2rem;
+    gap: 16px;
+  }
 }
 
 .sticky-promo {
@@ -1496,5 +1600,25 @@ gap: 16px;
   width: 3.2rem;
   height: 3.2rem;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .sticky-promo {
+    display: none;
+  }
+
+  .sticky-chat {
+    width: 4.8rem;
+height: 4.8rem;
+padding: 12px 0px 0px 0px;
+gap: 8px;
+border-radius: 8px 8px 0px 8px;
+
+  }
+
+  .sticky-chat svg {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
 }
 
