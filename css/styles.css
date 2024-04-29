@@ -178,7 +178,7 @@ header {
 @media (max-width: 768px) {
   body {
     width: 100%;
-    overflow-xed : hidden;
+    overflow-x : hidden;
   }
   .desktop-header {
     display: none;
