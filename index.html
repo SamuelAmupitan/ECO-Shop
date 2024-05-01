@@ -66,20 +66,23 @@
         <input type="text" placeholder="Search here...">
         <img src="images/header-search.svg" alt="search-icon" class="mobile-search-icon">
         <div class="mobile-menu-container">
-          <i class="fa fa-bars bar"></i>
+          <i class="fa fa-bars" onclick="toggleMenuIcon(this)"></i>
+          <i class="fa fa-times" style="display: none;" onclick="toggleMenuIcon(this)"></i>
         </div>
       </div>
 
-      <ul class="mobile-menu">
-        <li><a href="#home" class="link">NEW!</a></li>
-        <li><a href="#home" class="link">Clothing</a></li>
-        <li><a href="#home" class="link">Bath</a></li>
-        <li><a href="#home" class="link">Bedding</a></li>
-        <li><a href="#home" class="link">Home Goods</a></li>
-        <li><a href="#home" class="link">Furniture</a></li>
-        <li><a href="#home" class="link">Footwear</a></li>
-        <li><a href="#home" class="link">Accessories</a></li>
-      </ul>
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="#home" class="link">NEW!</a></li>
+          <li><a href="#home" class="link">Clothing</a></li>
+          <li><a href="#home" class="link">Bath</a></li>
+          <li><a href="#home" class="link">Bedding</a></li>
+          <li><a href="#home" class="link">Home Goods</a></li>
+          <li><a href="#home" class="link">Furniture</a></li>
+          <li><a href="#home" class="link">Footwear</a></li>
+          <li><a href="#home" class="link">Accessories</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
 

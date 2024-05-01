@@ -27,3 +27,19 @@ const initSlider = () => {
 
 window.addEventListener("resize", initSlider);
 window.addEventListener("load", initSlider);
+
+function toggleMenuIcon(icon) {
+  var barsIcon = document.querySelector('.fa-bars');
+  var timesIcon = document.querySelector('.fa-times');
+  var mobileMenu = document.querySelector('.mobile-menu');
+
+  if (icon.classList.contains('fa-bars')) {
+    barsIcon.style.display = 'none';
+    timesIcon.style.display = 'block';
+    mobileMenu.style.display = 'block';
+  } else {
+    barsIcon.style.display = 'block';
+    timesIcon.style.display = 'none';
+    mobileMenu.style.display = 'none';
+  }
+}

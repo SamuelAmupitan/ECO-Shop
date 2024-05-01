@@ -176,10 +176,6 @@ header {
 }
 
 @media (max-width: 768px) {
-  body {
-    width: 100%;
-    overflow-x : hidden;
-  }
   .desktop-header {
     display: none;
   }
@@ -265,7 +261,7 @@ header {
   }
 
   .mobile-search-container input[type="text"] {
-  width: 29.6rem;
+  width: 90%;
   height: 4rem;
   padding: 0.8rem 0.6rem;
   border-radius: 40px;
@@ -380,6 +376,45 @@ header {
 
   .header-img-container {
     display: none;
+  }
+
+  .mobile-menu {
+  display: none;
+  position: fixed;
+  top: 19rem;
+  left: 0;
+  width: 100%;
+  height: 27.2rem;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+}
+
+.mobile-menu li {
+  width: 100%;
+  height: 3.2rem;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+
+}
+
+.mobile-menu a {
+  font-family: Inter;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  text-decoration: none;
   }
 }
 
